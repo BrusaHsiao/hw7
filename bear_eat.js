@@ -126,7 +126,11 @@ function draw() {
     ellipse(25, 173, 20);
     fill(225);
     noStroke();
-    ellipse(27, 173, 10); //open eye "gameover"
+    ellipse(27, 173, 10);
+    fill(0);
+    strokeWeight(0);
+    textSize(15)
+    text('Reload this webpage to restart', 150, 200) //open eye "gameover"
     noLoop();
   }
 
